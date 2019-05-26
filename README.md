@@ -66,5 +66,6 @@ A helpful article by Dan Prince on Sitepoint. Published August 15, 2016.
 ### 4
 [Java Programming Tutorial OOP - Composition, Inheritance & Polymorphism](https://www.ntu.edu.sg/home/ehchua/programming/java/J3b_OOPInheritancePolymorphism.html)
 
-
+### 5 
+[Generator Functions](https://github.com/nashville-software-school/client-side-mastery/blob/master/book-3-the-initiate/chapters/JS_GENERATOR_FUNCTION.md)
 
