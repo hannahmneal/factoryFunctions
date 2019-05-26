@@ -77,9 +77,6 @@ newArtist()
 // console.log("Polar: " + Polar);
 
 
-
-
-
 //-------------------------------------------------------------------------------
 //This is for Step 2: Refactoring:
 
