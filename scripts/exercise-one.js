@@ -10,22 +10,39 @@ console.log("Exercise 1: Doctor")
     }
 */
 
-// Declare a variable for the container the results of the factory will be displayed in on the main page:
 
-const exerciseOneContainer = document.getElementById("exercise-one-container");
+// Factory function for object:
+
+const createDoctorObject = (name, specialty, address) => {
 
 
-// Factory function:
-
-const createDoctor = (name, specialty, address) => {
-
-    return  {
+    doctor = {
         "name": `${name}`,
         "specialty": `${specialty}`,
         "address": `${address}`
     }
+    return doctor
 }
 
-const newDoctor = createDoctor("Dr. Who", "Time Travel", "TARDIS")
 
-exerciseOneContainer.newDoctor;
+
+const newDoc = function() {
+
+    createDoctorObject("Dr. Who", "Time Travel", "TARDIS");
+    console.log(doctor);
+    // Write a for loop to log each new doctor object to the console.
+
+    createDoctorObject("Dr. Steamy", "Heartbreaks", "Grey");    
+    console.log(doctor);
+}
+newDoc()
+
+const createDocList = [
+
+]
+
+
+
+
+
+
