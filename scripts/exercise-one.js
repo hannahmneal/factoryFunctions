@@ -21,26 +21,26 @@ const createDoctorObject = (name, specialty, address) => {
         "specialty": `${specialty}`,
         "address": `${address}`
     }
+    console.log(doctor);
     return doctor
+
 }
 
 
+// This allows the factory to be called repeatedly with different parameters each time:
 
 const newDoc = function() {
-
-    createDoctorObject("Dr. Who", "Time Travel", "TARDIS");
-    console.log(doctor);
-    // Write a for loop to log each new doctor object to the console.
-
-    createDoctorObject("Dr. Steamy", "Heartbreaks", "Grey");    
-    console.log(doctor);
+    
+    createDoctorObject("Dr. Who", "Time Travel", "TARDIS")
+    createDoctorObject("Dr. Steamy", "Heartbreaks", "Grey")
+    
 }
 newDoc()
+
 
 const createDocList = [
 
 ]
-
 
 
 
